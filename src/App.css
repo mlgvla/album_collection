@@ -1,35 +1,40 @@
+body {
+   background: antiquewhite;
+}
+
 .App {
-  /* max-width: 800px; */
-  margin: 0 auto;
-  padding: 2rem;
+   /* max-width: 800px; */
+   margin: 0 auto;
+   padding: 2rem;
+   text-align: center;
 }
 
 .album-collection {
-  display: flex;
-  flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .album {
-  flex-basis: calc(20% - 1rem);
-  margin: 0.5rem;
-  padding: 1rem;
-  background-color: #fff;
-  border: solid 1px;
-  border-radius: 3%;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+   flex-basis: calc(15% - 1rem);
+   margin: 0.5rem;
+   padding: 1rem;
+   background-color: #fff;
+   border: solid 1px;
+   border-radius: 3%;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .album h2 {
-  font-size: 1.5rem;
-  margin: 0 0 0.5rem;
+   font-size: 1.5rem;
+   margin: 0 0 0.5rem;
 }
 
 .album p {
-  margin: 0 0 0.25rem;
+   margin: 0 0 0.25rem;
 }
 
 .album img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 0.5rem;
+   max-width: 100%;
+   height: auto;
+   margin-top: 0.5rem;
 }

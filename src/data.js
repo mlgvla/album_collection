@@ -22,5 +22,11 @@ export const albumData = [
       artist: 'Adele',
       year: 2011,
       coverUrl: 'https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png'
+    },
+    {
+      title: 'Revolver',
+      artist: 'The Beatles',
+      year: 1966,
+      coverUrl: 'https://upload.wikimedia.org/wikipedia/en/e/ec/Revolver_%28album_cover%29.jpg'
     }
   ]

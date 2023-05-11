@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Album({data}) {
-    const {title, artist, year, coverUrl} = data
+function Album({albumData}) {
+ const {title, artist, year, coverUrl} = albumData
   return (
     <div className="album">
       <h2>{title}</h2>
