@@ -1,40 +1,69 @@
+/* Default styles for all screen sizes */
 body {
-   background: antiquewhite;
+   background: lightgrey;
 }
-
-.App {
-   /* max-width: 800px; */
-   margin: 0 auto;
-   padding: 2rem;
+h1 {
    text-align: center;
 }
-
-.album-collection {
-   display: flex;
-   flex-wrap: wrap;
+.albums {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 20px;
+   padding: 20px;
+   max-width: 320px;
+   margin: 0 auto;
 }
 
 .album {
-   flex-basis: calc(15% - 1rem);
-   margin: 0.5rem;
-   padding: 1rem;
    background-color: #fff;
-   border: solid 1px;
-   border-radius: 3%;
-   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-.album h2 {
-   font-size: 1.5rem;
-   margin: 0 0 0.5rem;
-}
-
-.album p {
-   margin: 0 0 0.25rem;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   padding: 1em;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .album img {
-   max-width: 100%;
+   width: 100%;
    height: auto;
-   margin-top: 0.5rem;
+   border-radius: 4px 4px 0 0;
+}
+
+.album h2 {
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 18px;
+}
+
+.album p {
+   margin-top: 5px;
+   margin-bottom: 10px;
+   font-size: 14px;
+}
+
+
+/* Tablet styles */
+@media (min-width: 768px) {
+   .albums {
+      grid-template-columns: 1fr 1fr;
+      max-width: 600px;
+      margin: 0 auto;
+   }
+}
+
+/* Laptop styles */
+@media (min-width: 1024px) {
+   .albums {
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 960px;
+      margin: 0 auto;
+   }
+}
+
+/* Desktop styles */
+@media (min-width: 1200px) {
+   .albums {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      max-width: 1140px;
+      margin: 0 auto;
+   }
 }
