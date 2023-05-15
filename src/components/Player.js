@@ -1,12 +1,12 @@
 import React from "react"
 
-function Player({spotifyId}) {
+function Player({ spotifyId }) {
    return (
       <iframe
          style={{ borderRadius: "12px" }}
          title="title"
          src={`https://open.spotify.com/embed/album/${spotifyId}?utm_source=generator`}
-         width="75%"
+         width="100%"
          height="152"
          frameBorder="0"
          allowfullscreen=""

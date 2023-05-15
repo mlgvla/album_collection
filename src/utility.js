@@ -1,4 +1,4 @@
-function starRating(rating) {
+export function starRating(rating) {
     let stars = ""
     if(!rating) return "Not Rated"
     for (let i = 0; i < rating; i++) {
@@ -9,5 +9,3 @@ function starRating(rating) {
     }
     return stars
   }
-  
-  export { starRating }

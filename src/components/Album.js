@@ -1,20 +1,14 @@
 import React from "react"
 import { starRating } from "../utility"
 
-function Album({ albumData }) {
-   const { title, artist, year, coverUrl, rating } = albumData
+function Album(props) {
    return (
       <div className="album">
-         <h2>{title}</h2>
-         <p>{artist}</p>
-         <p>{year}</p>
-         <p>Rating: {starRating(rating)}</p>
-         <img
-            src={coverUrl}
-            alt={`Album cover for ${title}`}
-            width="300"
-            height="300"
-         />
+         {/* <h2>{props.title}</h2>
+         <p>{props.artist}</p>
+         <p>{props.year}</p>
+         <p>Rating: {starRating(props.rating)}</p>
+         <img src={props.coverUrl} alt={`Album cover for ${props.title}`} /> */}
       </div>
    )
 }
