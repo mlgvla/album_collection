@@ -1,4 +1,4 @@
-export const albumData = [
+export const albumCollection = [
    {
       title: "Abbey Road",
       artist: "The Beatles",
@@ -51,5 +51,23 @@ export const albumData = [
          "https://upload.wikimedia.org/wikipedia/en/5/52/Carole_King_-_Tapestry.jpg",
       rating: 5,
       spotifyId: "12n11cgnpjXKLeqrnIERoS",
+   },
+   {
+      title: "Tea for the Tillerman",
+      artist: "Cat Stevens",
+      year: 1970,
+      coverUrl:
+         "https://upload.wikimedia.org/wikipedia/en/0/0e/Tea_for_the_Tillerman.jpeg",
+      rating: 5,
+      spotifyId: "44VxbAytHpVi3Rq8hRhild",
+   },
+   {
+      title: "So",
+      artist: "Peter Gabriel",
+      year: 1986,
+      coverUrl:
+         "https://upload.wikimedia.org/wikipedia/en/a/a4/So_%28album%29.png",
+      rating: 5,
+      spotifyId: "2ikq6LspaBbUG2qyiV5qdx",
    },
 ]

@@ -45,6 +45,17 @@ h1 {
    font-size: 14px;
 }
 
+.album button {
+   font-size: 20px;
+   margin-top: 20px;
+}
+
+.player {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
 /* Tablet styles */
 @media (min-width: 768px) {
    .albums {
