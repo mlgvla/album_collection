@@ -70,4 +70,13 @@ export const albumCollection = [
       rating: 5,
       spotifyId: "2ikq6LspaBbUG2qyiV5qdx",
    },
+   {
+      title: "Telemann in the French Style",
+      artist: "The Hanoverian Ensemble",
+      year: 2009,
+      coverUrl:
+         "https://cdns-images.dzcdn.net/images/cover/3a77f4cdee4f7d1d2c0e8dc843702ae6/500x500-000000-80-0-0.jpg",
+      rating: 5,
+      spotifyId: "641SbNPFJionGJ2cRTPA3X",
+   },
 ]
